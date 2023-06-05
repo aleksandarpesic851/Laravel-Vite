@@ -1,0 +1,55 @@
+ID, 
+Type(Boxer, Promoter, MatchMaker, Manager), 
+Country + State, 	Menu			boxer, match_maker, promotoer
+Division		Menu 			boxer,
+Company Name, 		Text			match_maker, promotoer
+Rounds, 		Menu (4,6,8,10+)	boxer,
+Email, 			Text			boxer, match_maker, promotoer
+Phone, 			Text			boxer, match_maker, promotoer
+Passport, 		Checkbox		boxer,
+US Visa, 		Checkbox		boxer,
+Language, 		Menu			boxer, match_maker, promotoer
+Boxrec ID, 		Text			boxer,
+Password		Text			boxer, match_maker,  promotoer
+
+Hometown		Text
+Avatar			Image
+
+
+--- divisions ---
+(Heavy weight, Cruiser Weight - 90.72, Light Heavy Weight - 79.38, Super Middle weight - 76.2, Middle weight - 72.57, Super Welter weight - 69.85, Welter weight - 66.68, Super Light weight - 63.5, Light weight - 61.23, Super Feather weight - 58.97, Feather weight - 57.15, Super Bantam weight - 55.34, Bantam weight - 53.52, super FlyWeight - 52.16, FlyWeight - 50.8, JR Flyweight - 49.1, Minimum Weight - 47.4, )
+
+--------- Fight ----------
+Country, State, Division, Rounds, Date, US Visa, Passport, Promoter, Oponent, Notes
+
+
+------- Boxer --------
+*************** Home - Search a fight ( country, state, division, round, passport, US.Visa)Pro
+Profile - Image, Name, Hometown, Division, Rounds, Passport, U.S. Visa, Boxrec Profile,           (My Manager, Review, Rating, My Application - not editable by oneself)
+*************** My Application - Active Application List (Over Due Application remove automatically)
+My Inbox
+My Message
+
+----- Match Maker-----
+*************** Home - Search a fight
+	*************** Post a fight
+Profile - Image, Name, Hometown, Matchmarker at, ( Recent Hires, Recent Fight Posts, Review, Rating, My Posts - not editable by oneself)
+*************** My Posts - Active Posts (Over due posts remove automatically)
+My Inbox
+My Message
+
+---- Manager ----
+*************** Home - Search a fight
+Profile - Image, Name, Hometown, Management Company, (My boxers, Review, Rating)
+My Inbox
+My Message
+
+
+---- Promoter ---
+Home - Upcoming Boxing Show
+	Country, State, Slots Available, Name of the event, Stream/TV/APP link, Date
+
+Profile - Image, Name, Hometown, Promoter company, Boxers, Previous Boxing shows, Rate, Review
+
+
+https://boxrec.com/en/box-pro/479205
